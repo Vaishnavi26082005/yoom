@@ -29,6 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <body className={`${geistSans.className} bg-dark-2`}>
       <ClerkProvider
       appearance={{
         layout:{
@@ -50,6 +51,7 @@ export default function RootLayout({
         className={`${geistSans.className} bg-dark-2`}>{children}
          </body>
       </ClerkProvider>
+      </body>
     </html>
   );
 }

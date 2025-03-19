@@ -7,7 +7,7 @@ const Rootlayout = ({children}:{children:ReactNode}) => {
       <StreamVideoProvider>
         {children}
       </StreamVideoProvider>
-        {children}
+        
     </main>
   )
 }
